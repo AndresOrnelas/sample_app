@@ -51,7 +51,8 @@ end
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
-end
+  gem 'factory_girl_rails', '4.2.0'
+ end
 
 group :doc do
   gem 'sdoc', '0.3.20', require: false
